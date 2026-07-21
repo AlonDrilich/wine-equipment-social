@@ -42,6 +42,16 @@ wine-social-cron/
 
    (LinkedIn can be added the same way later — the LinkedIn API needs an approved app + `w_member_social`.)
 
+   **Buffer refill — YouTube + LinkedIn (ACTIVE path for reels):**
+   - Reels post to YouTube + LinkedIn via **Buffer** (account `hello@wine.equipment`). The first 10/channel
+     are already scheduled (Jul 22–31). Buffer's free plan holds only ~10 scheduled/channel, so the
+     `buffer-refill` workflow (daily 07:00 UTC) tops up the next day(s) from `schedule.json` as posts
+     publish — idempotent (reads the queue first; skips safely if it can't).
+   - Secret: `BUFFER_WINE_TOKEN` (the Buffer API token). Optional `REEL_BASE_URL` (defaults to this
+     repo's raw `/reels` URL — the repo must stay **public** so Buffer can fetch the videos).
+   - `publish-reels.yml` (direct IG/YouTube API) is now **only needed for Instagram** — YouTube+LinkedIn
+     go through Buffer. Leave it off unless you connect Instagram.
+
    **Facebook remainder** (optional — only if the local Composio run couldn't finish all posts):
    - `FB_PAGE_ID` = `1111872395344358`, `FB_PAGE_TOKEN` = a long-lived Page token with
      `pages_manage_posts` + `pages_read_engagement`.
