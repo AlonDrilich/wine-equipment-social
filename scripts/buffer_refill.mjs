@@ -37,7 +37,7 @@ const inputFor = (plat, s) => plat === "youtube"
 
 let added = { youtube: 0, linkedin: 0 };
 for (const plat of ["youtube", "linkedin"]) {
-  const have = await scheduledDates(plat);
+  const have = await scheduledDates(CH[plat]);   // channel ID, not the platform name
   if (have === null) { console.log(`• ${plat}: could not read the scheduled queue (Buffer API) — skipping this run to avoid duplicates`); continue; }
   const todo = SCHED.filter(s => s.date >= today && s.date <= "2026-08-31" && !have.has(s.date));
   for (const s of todo) {
