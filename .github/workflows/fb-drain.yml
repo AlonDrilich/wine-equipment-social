@@ -1,0 +1,42 @@
+name: fb-drain
+
+# Schedules the remaining wine.equipment Facebook photo posts (Aug 14-31) a batch at a time,
+# respecting Facebook's daily creation cap. Runs daily at 06:00 UTC until fb-queue.json is empty.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Max posts to schedule this run (default 45)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fb-drain
+  cancel-in-progress: false
+
+jobs:
+  drain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Schedule next FB batch
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_IMG_BASE: ${{ secrets.FB_IMG_BASE }}
+          FB_BATCH: ${{ github.event.inputs.batch }}
+        run: node scripts/fb_publish.mjs
+      - name: Commit queue progress
+        run: |
+          git config user.name "wine-social-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add fb-queue.json
+          git diff --cached --quiet || git commit -m "chore: drain FB queue [skip ci]"
+          git push

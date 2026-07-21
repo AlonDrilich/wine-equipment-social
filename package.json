@@ -1,0 +1,11 @@
+{
+  "name": "wine-social-cron",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHub Actions cron that auto-posts wine.equipment reels to Instagram + YouTube (Mon/Wed/Fri).",
+  "scripts": {
+    "build": "node scripts/build_schedule.mjs",
+    "publish": "node scripts/publish.mjs"
+  }
+}

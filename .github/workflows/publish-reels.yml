@@ -1,0 +1,45 @@
+name: publish-reels
+
+# Posts the next due wine.equipment reel to Instagram + YouTube — ONE PER DAY.
+# Daily at 16:00 UTC (~12:00 ET / 09:00 PT). Adjust the cron below if you like.
+on:
+  schedule:
+    - cron: "0 16 * * *"
+  workflow_dispatch:              # lets you run it manually from the Actions tab
+    inputs:
+      run_date:
+        description: "Override date (YYYY-MM-DD) — posts the oldest due slot on/before this date"
+        required: false
+
+permissions:
+  contents: write                 # to commit the updated schedule.json (marks slots posted)
+
+concurrency:
+  group: publish-reels            # never run two publishes at once
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Publish next due reel
+        env:
+          RUN_DATE: ${{ github.event.inputs.run_date }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          REEL_BASE_URL: ${{ secrets.REEL_BASE_URL }}
+        run: node scripts/publish.mjs
+      - name: Commit schedule updates
+        run: |
+          git config user.name "wine-social-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add schedule.json
+          git diff --cached --quiet || git commit -m "chore: mark reel(s) posted [skip ci]"
+          git push

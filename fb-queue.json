@@ -1,0 +1,625 @@
+[
+ {
+  "image": "pneumatic-press.png",
+  "caption": "Two pneumatic presses can look identical and behave nothing alike. Open (tank) presses are simpler and cheaper and let you process quickly; closed presses run under inert gas or reduced oxygen for whites and delicate styles where oxidation is the enemy. Then there's drainage design, axial channels versus a plain perforated basket, which decides how fast and how cleanly the juice comes off. Membrane material and cycle programming set how gently you can press. Read past the hectolitre rating to how the press actually works, then browse by configuration and capacity.\n\nBrowse presses by spec → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=pneumatic-open-vs-closed-press\n\n#winepress #wineryequipment #winetech",
+  "scheduled_publish_time": 1786719600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "weld.png",
+  "caption": "There's a kind of weld that ends a conversation. Pitting, discoloration, a bead that was clearly rushed — on a wine-contact surface that's not cosmetic, it's a spoilage risk you'll be cleaning around for years. Part of vetting a manufacturer is being willing to walk away from good marketing attached to bad welds. We don't build the tanks, so we've no reason to defend a poor one. The makers who make our directory are the ones whose welds we'd put our own name beside.\n\nSee vetted tank listings → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=weld-id-walk-away\n\n#winemaking #fermentation #stainlesssteel",
+  "scheduled_publish_time": 1786726800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "The cheapest tank isn't the one with the lowest price. It's the one you don't replace in three vintages. We watch buyers optimize for cost per litre and quietly ignore the things that decide total cost of ownership: jacket coverage for real temperature control, the stainless grade where wine actually touches it, whether the geometry cleans without a fight. Spend a little more where it protects the wine and the vessel outlives the loan. Fermentation tanks on the marketplace start around $3,400 and climb with capacity and spec — the right number is the one you're still glad you chose in year five.\n\nHow to size and spec a tank → https://wine.equipment/guide/fermentation-tank-sizing?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=cheapest-tank-tco\n\n#fermentation #wineryequipment #winemaking",
+  "scheduled_publish_time": 1786737600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-crossflow-vs-plate.png",
+  "caption": "Crossflow and plate-and-frame filtration reach the same clarity by very different routes. Crossflow runs wine tangentially across a membrane, self-cleaning as it goes: one machine, minimal consumables, tight and repeatable filtration, at a higher upfront cost. Plate-and-frame uses pads or sheets, a lower entry price, but labor to load and change, filter media to buy, and more hands-on operation each run. Small-lot cellars often start with pads; volume operations move to crossflow to kill the labor and consumable cost. Which one pays back depends on how much wine you push. Compare them on your throughput.\n\nCompare filtration systems → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=crossflow-vs-plate-and-frame\n\n#winefiltration #winemaking #wineryequipment",
+  "scheduled_publish_time": 1786748400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "filtration-gauges.png",
+  "caption": "Two manufacturers, two spec sheets, and no honest way to line them up — one lists throughput in tons per hour, the other in kilos per minute, and neither frames the warranty the same way. That's the quiet tax on a considered purchase: hours spent translating before you can even decide. Our compare tool puts vetted listings against each other on the specs that actually decide uptime — capacity, materials, fittings, price band — side by side, in one view. No emailing five suppliers to build your own spreadsheet. Look at the numbers first; talk to anyone second.\n\nCompare specs side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=compare-non-comparable-spec-sheets\n\n#winemaking #wineryequipment #winery",
+  "scheduled_publish_time": 1786795200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Sizing fermentation tanks is less about total volume than about lot size. Ten thousand litres in one tank and the same in four tanks are different wineries — the four-tank setup ferments small lots separately, blends on purpose, and isolates a problem before it spreads. But every tank you add costs capital and floor space, and an oversized tank run half-full invites oxidation unless it's variable-capacity. The honest sizing question is: how many distinct lots will you actually make, now and in five years? Answer that, then size. The calculator walks through the math.\n\nSize your tanks properly → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=tank-sizing-lots\n\n#fermentation #winemaking #cellar",
+  "scheduled_publish_time": 1786806000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crossflow.png",
+  "caption": "Standard crossflow struggles with heavy lees, the solids blind the membrane fast and your flow rate collapses. That's what a dedicated lees filter is for: built to recover clean wine from tank bottoms, settling trials, and the racking sediment most cellars either send off or lose. If you're throwing away recoverable volume every vintage, a lees filter can pay for itself in reclaimed wine. If your filtration is all polished juice, a general crossflow covers it. Know which problem you're actually solving, then browse filtration by application and L/HR.\n\nBrowse filtration systems → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=crossflow-vs-lees-filter\n\n#winefiltration #winemaking #cellar",
+  "scheduled_publish_time": 1786813200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "weld.png",
+  "caption": "On a fermentation tank, the weld is where quality hides. A poorly-made seam corrodes, harbors spoilage organisms in its crevices, and quietly undoes your sanitation program vintage after vintage. What you want: continuous, ground-and-polished internal welds, low-carbon 316L at the contact surfaces to resist carbide precipitation, and documented weld procedures you can actually ask for. Traceable welds aren't a luxury spec — they're the difference between a tank you clean and a tank you fight. We vet suppliers on exactly this before they reach your shortlist. Craft meets commerce.\n\nHow we vet for build quality → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=tank-welds-sanitation\n\n#stainlesssteel #fermentation #winemaking",
+  "scheduled_publish_time": 1786824000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "A fair question we get from winemakers: is this just pay-to-list? It isn't. A manufacturer doesn't buy its way onto wine.equipment — it's vetted for build quality, service, and delivery, or it isn't here. That's what keeps the guidance independent: we've no incentive to steer you toward the highest-margin unit, because we don't sell the unit. The maker builds, warranties, and ships; we curate and connect. On a high-ticket purchase, trust is earned in specifics, not in the size of a listing fee.\n\nAsk how we vet → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=no-pay-to-list\n\n#wineryequipment #winemaking #wineindustry",
+  "scheduled_publish_time": 1786834800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "The spec sheet ends at the sale. The relationship doesn't. When we vet a manufacturer, build quality is only part of it — we're also looking at whether parts are available, how fast service responds, and whether delivery lands in time to commission before crush. A brilliant press that strands you mid-vintage isn't a brilliant press. We don't service or ship the gear ourselves; the maker does. Our job is to make sure the maker actually shows up after the invoice clears.\n\nAsk about a supplier's service → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=service-delivery-vetting\n\n#winemaking #wineryequipment #harvest",
+  "scheduled_publish_time": 1786881600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "barrel-room.png",
+  "caption": "Stainless, oak, or concrete — the fermentation vessel shapes the wine as much as the fruit does. Stainless is inert, precise, and easy to clean: it holds temperature, protects fruit-forward aromatics, and gives you total control. Oak breathes, softens tannin, and adds texture and spice, at the cost of upkeep and neutrality over time. Concrete sits between — some micro-oxygenation without oak flavor. Most cellars end up with a mix matched to the wines they make, not a single dogma. Decide what each wine needs before you buy the vessel, not after. The guide lays out the trade-offs.\n\nStainless vs oak, explained → https://wine.equipment/guide/stainless-steel-vs-oak-fermentation?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=stainless-oak-concrete-vessel\n\n#fermentation #winemaking #craftwine",
+  "scheduled_publish_time": 1786892400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Delivery day feels like the finish line. It isn't. The vessel on your slab is only as good as the install — level, drainage, the glycol loop plumbed right, the sanitary fittings matched so there are no dead legs to harbor spoilage. We stay in the room past the introduction for exactly this reason: the manufacturer builds, warranties, and ships, and we help make sure what shows up is what you specced and gets commissioned before the fruit does. A partner, not a portal. If you're standing up equipment this year, let's walk the timeline together before it gets tight.\n\nTalk through your timeline → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=commissioning-not-delivery\n\n#wineryequipment #commissioning #winemaking",
+  "scheduled_publish_time": 1786899600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "filtration-gauges.png",
+  "caption": "The sticker price of a plate-and-frame filter is the least interesting number about it. The real cost lives in what it consumes: filter sheets or diatomaceous earth every run, the labor to load, tighten, and strip the plates, and the downtime between passes. It's forgiving on capital and unforgiving on time, which suits a small cellar filtering occasionally and punishes a busy one. Before you choose on entry price, model a full season of media and labor. That's where crossflow usually wins or loses. Our filtration guides work through the math.\n\nRead the filtration guides → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=plate-and-frame-de-labor-cost\n\n#winefiltration #winemaking #wineryequipment",
+  "scheduled_publish_time": 1786910400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "wine-transfer-pump.png",
+  "caption": "Most oxidation problems aren't the wine — they're the transfer. Every rack, every pump-over, every move between tanks is a chance to pick up oxygen and shear delicate structure. The pump you choose decides how much. A flexible-impeller or progressive-cavity pump run gently moves wine at low shear; a centrifugal pump run hard whips air into it. Match the pump to the wine's fragility and the flow to the job — slow for finished reds, careful for aromatic whites. The transfer stage is invisible until it shows up in the glass as flatness. Spec it deliberately.\n\nCompare wine-transfer pumps → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=transfer-oxidation-pump\n\n#winetransfer #winemaking #wineryequipment",
+  "scheduled_publish_time": 1786921200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "Before you email a single supplier, get the sizing right. The most expensive tank isn't the overpriced one — it's the one that's 2,000 litres too small the year you add five thousand cases, or so oversized your ferment never fills it. Our cost calculator lets you work backward from your production volume and varieties to a defensible capacity, so you walk into the conversation already knowing the range you need. It's free, there's no sign-up, and nobody calls you afterward. Run your numbers, then decide what to ask for.\n\nRun your numbers → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=calculator-size-before-you-ask\n\n#winemaking #fermentation #winery",
+  "scheduled_publish_time": 1786968000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Ten years ago, a variable-capacity tank was a specialty order. Now it's close to the default for small-lot work — and for good reason. The floating lid drops to the wine line, so you can hold a half-full tank without a headspace of oxygen slowly dulling what's in it. For winemakers juggling many small parcels, that flexibility is worth more than a slightly lower sticker on a fixed tank. It's a genuine shift in how cellars are speccing, not a fad. If you're weighing variable-capacity against fixed, we wrote the trade-offs down plainly — capacity, oxygen, cost, and when each one wins.\n\nVariable-capacity vs fixed → https://wine.equipment/guide/variable-capacity-vs-fixed-tanks?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=variable-capacity-standard\n\n#fermentation #winemaking #winery",
+  "scheduled_publish_time": 1786978800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "wine-transfer-pump.png",
+  "caption": "Low-shear transfer is one of those specs that sounds like jargon until you taste what happens without it. Shear is the mechanical stress a pump puts on wine — high shear tears at lees, strips texture, and pulls in oxygen. For moving wine on its lees, or racking a barrel-aged red you've spent a year building, a gentle positive-displacement pump protects everything you've made. The wrong pump can undo months of careful work in one careless transfer. Ask about the pump type and the achievable flow range, not just the connection size. Gentle is a spec, not a promise.\n\nSee low-shear transfer options → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=transfer-low-shear-lees\n\n#winetransfer #winemaking #cellar",
+  "scheduled_publish_time": 1786986000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crossflow.png",
+  "caption": "Sizing a crossflow filter comes down to one honest question: how much wine do you need to move, and in what window? Rated flow (L/HR) drops in the real world as the membrane loads, so the nameplate number isn't the number you'll live with. Undersize it and filtration becomes the bottleneck holding your bottling line hostage; oversize it and you've spent capital that sits idle most of the year. Crossflow systems on the marketplace run a wide band, from about $14,200 up, so sizing right matters to the budget too. Run your volumes through the calculator first.\n\nSize your filtration → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=crossflow-lhr-sizing\n\n#winefiltration #winetech #winemaking",
+  "scheduled_publish_time": 1786996800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Send us your production volume and the varietals you're working with, and you'll hear back within one business day — from someone who knows the difference between a storage tank and a variable-capacity fermenter. No drip sequence, no rotating cast of reps. We route your inquiry to the right vetted specialist and keep the relationship direct from there. The manufacturer builds, warranties, and ships; we make the introduction worth your time. No spam. Just wine.\n\nStart a conversation → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=one-business-day\n\n#winemaking #winerylife #wineryequipment",
+  "scheduled_publish_time": 1787007600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-triclamp-vs-din.png",
+  "caption": "Tri-clamp or DIN? It's a small fitting that shapes your whole cellar. Tri-clamp connections are quick to assemble, easy to inspect, and the North American sanitary default — pop the clamp, check the gasket, reassemble in seconds. DIN fittings are the European standard, threaded and robust, common on equipment sourced from Italian and French makers. Neither is wrong; mixing them without adapters is the headache. Before you buy a pump or a length of hose, know which standard your tanks, valves, and press already speak. Consistency here saves you a drawer full of adapters and a lot of swearing during crush.\n\nTri-clamp vs DIN, side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=triclamp-vs-din-fittings\n\n#winetransfer #wineryequipment #winemaking",
+  "scheduled_publish_time": 1787054400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "barrel-room.png",
+  "caption": "My first vintage as a production manager in Tuscany, we bottlenecked at the press — it simply couldn't keep pace with what the crushpad was sending it, and good fruit sat waiting when it should have been moving. That week taught me a winery is a line, not a shopping list: size one stage wrong and you feel it everywhere downstream. It's why I read equipment as a system now, and why our guides walk the whole journey from crush to bottle instead of selling you a single machine. Ninety-plus of them, free to read, no email gate.\n\nRead the buyer's guides → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=winery-is-a-line\n\n#winemaking #cellar #wineryequipment",
+  "scheduled_publish_time": 1787065200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "Here's the conflict of interest we designed out: we don't sell the equipment, so we've no reason to point you at the priciest unit on the floor. Independent guidance means sizing a tank to your actual production, not to our margin — because there is no margin on the tank for us. The manufacturer builds it, warranties it, and ships it. We just make sure you're comparing vetted makers and buying the right thing once, instead of re-buying to fix an undersized guess next vintage.\n\nSize it with the calculator → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=independent-guidance\n\n#winemaking #fermentation #wineryequipment",
+  "scheduled_publish_time": 1787072400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-triclamp-vs-din.png",
+  "caption": "Tri-clamp versus DIN is a small fitting that quietly shapes your whole cellar. Tri-clamp uses a gasket and a clamp collar, fast to break down, fast to clean, the sanitary standard across most modern North American cellars. DIN unions thread together, common on European equipment, robust but slower to service. Neither is wrong; the mistake is mixing standards across your line so nothing connects without adapters. Pick one convention and spec to it, especially where sanitation and quick teardown matter. See how listings are fitted before you build a line that won't connect.\n\nCompare fittings across listings → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=tri-clamp-vs-din\n\n#wineryequipment #winemaking #cellardesign",
+  "scheduled_publish_time": 1787083200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "wine-transfer-pump.png",
+  "caption": "A wine pump that's too powerful is as much a problem as one that's too weak. Size a transfer pump by the flow rate the job actually needs, not the biggest number on the spec sheet — a pump that moves wine faster than you can gently handle it just adds shear and oxygen. Consider your varietals, the distances, and whether you're moving must, young wine, or finished wine on its lees. A variable-speed drive buys you range across all of them. The connection standard, the material, the seals all matter — but start with flow matched to the gentlest job you do.\n\nMatch a pump to your cellar → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=transfer-pump-sizing-flow\n\n#winetransfer #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787094000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Send us your production volume, your grape varieties, and the stage you're speccing — and within one business day you'll have a tailored shortlist from manufacturers we've vetted for build quality and service. You can line up competitive quotes without chasing five sales teams across three time zones. Worth being clear on how it works: we curate and connect. The manufacturer builds the equipment, warranties it, and ships it — we keep the introduction direct, so the relationship is yours to own, from first inquiry to on-site commissioning. No spam. Just wine.\n\nGet a tailored quote → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=tailored-quote-one-business-day\n\n#wineryequipment #winemaker #napa",
+  "scheduled_publish_time": 1787140800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-bph-sizing.png",
+  "caption": "Bottling-line BPH is the spec everyone over-buys. Bottles per hour looks like the number that matters, but a 6,000-BPH monobloc idling for a two-day annual run is capital you didn't need. The right size is set by your volume and your bottling window, not the biggest machine you can afford. A boutique cellar bottling in short bursts is served by a modest line; a high-volume producer running weeks of continuous fills needs the throughput and the redundancy. Lines on the marketplace run up to 6,000 BPH, so the question is which end you actually live at. Run the numbers first.\n\nSize your bottling line → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=bottling-bph-sizing\n\n#bottling #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787151600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "tri-clamp.png",
+  "caption": "Vetting isn't one test, it's three. Build quality — the grade of stainless, the welds, the sanitary fittings. Service — parts, response time, someone who answers when it fails. Delivery — landing and commissioning before your fruit does. A manufacturer clears all three to sit in the directory, not just take a nice photo. We don't build, warranty, or ship any of it; the maker does. What we stand behind is that the names you're choosing between have already passed the parts a spec sheet hides.\n\nBrowse vetted equipment → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=three-axes-vetting\n\n#winemaking #wineryequipment #cellar",
+  "scheduled_publish_time": 1787158800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "barrel-room.png",
+  "caption": "Sophie Petit spent her early career on the other side of the quote — engineering equipment for a French OEM — so when she vets a supplier, she knows where corners get cut and where they don't. It isn't a logo check. It's whether the welds are traceable, whether the stainless is genuinely 304 or 316L where it's claimed, whether the shop still answers the phone after the invoice clears. We source from the best, not the loudest. That's the whole reason to use a curated marketplace instead of a search engine — the filtering already happened. Browse what's passed the bar.\n\nBrowse vetted equipment → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=vetted-supplier-side\n\n#wineryequipment #winemaking #wineindustry",
+  "scheduled_publish_time": 1787169600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "bottling-line.png",
+  "caption": "A monobloc bottling line integrates rinsing, filling, and corking or capping into one synchronized frame, a smaller footprint, one control system, and fewer transfer points where a bottle can jam or a wine can pick up oxygen. Separate machines cost less up front and let you upgrade one stage at a time, but you're syncing standalone units and buying floor space. For a tight cellar bottling its own wine, monobloc usually wins on footprint and oxygen control; for a phased build on a budget, modular has its place. Browse lines by configuration and BPH.\n\nBrowse bottling lines → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=monobloc-vs-separate-bottling\n\n#bottling #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787180400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "tri-clamp.png",
+  "caption": "The transfer line is the part of the cellar spoilage loves most: hoses, valves, and pump housings full of crevices where a skipped cleaning becomes next vintage's problem. Sanitary design keeps it honest — Tri-clamp or DIN fittings that come apart for inspection, smooth food-grade contact surfaces, no dead legs where wine sits and sours. When you spec a pump, spec the cleanability with it: can it be fully cleaned in place, and can you actually see what you're cleaning? The gentlest pump in the world still ruins wine if it can't be kept clean.\n\nBrowse sanitary transfer gear → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=transfer-sanitation-cleanability\n\n#winetransfer #winemaking #cellar",
+  "scheduled_publish_time": 1787227200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-crossflow-vs-plate.png",
+  "caption": "Crossflow or plate-and-frame? The trade is automation and consistency against upfront cost. A crossflow (tangential-flow) system runs the wine parallel to the membrane so solids don't cake it — one closed, automated pass, less oxygen pickup, no pads to buy or dispose of. Plate-and-frame costs far less to acquire but is labor-heavy, exposes wine to more air, and turns pads into a running cost and a waste stream. For steady volume, crossflow often wins on total cost despite the sticker; for occasional small lots, plate-and-frame still earns its place. Run your volumes before you decide.\n\nCrossflow vs plate-and-frame → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=crossflow-vs-plate-frame\n\n#filtration #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787238000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "weld.png",
+  "caption": "Much of the best winemaking equipment still comes out of Italian and French workshops that have been building tanks and presses for generations. Our directory leans on that craftsmanship — but 'European' isn't a vetting standard on its own. We still check the metallurgy, the welds, the sanitary fittings, and whether they'll service and deliver to your region. Provenance is a starting point, not a pass. The maker builds, warranties, and ships; we make sure the heritage is backed by a build you'd trust vintage after vintage.\n\nExplore the makers → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=european-craftsmanship\n\n#winemaking #wineryequipment #wineindustry",
+  "scheduled_publish_time": 1787245200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crusher-destemmer.png",
+  "caption": "If you're speccing a crusher-destemmer, TON/HR is the number that decides whether your crush pad flows or backs up. It has to clear fruit as fast as it arrives at peak intake, not your average day but your worst Saturday in October when three trucks land at once. Undersize it and the whole pad waits on the destemmer; oversize it and you've paid for capacity that idles eleven months a year. Match the rating to your peak, with a little headroom. Crusher-destemmers on the marketplace start around $7,800 and scale to 30 ton/hr. Run your peak through the calculator.\n\nSize your crusher-destemmer → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=crusher-destemmer-tonhr-sizing\n\n#crushpad #winemaking #harvest",
+  "scheduled_publish_time": 1787256000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crossflow.png",
+  "caption": "If you're looking at crossflow filtration, the spec that governs everything is throughput in litres per hour matched to your batch size and bottling schedule. Systems on the marketplace run roughly 500 to 10,000 L/HR, with asking prices from about $14,200 up into the low forties depending on membrane area and automation. The right size filters a batch in a sensible window without you buying capacity you'll rarely use. Weigh membrane type and how the system handles cleaning cycles, too — a crossflow you dread cleaning gets used less than it should. The manufacturer builds and warranties it; we help you size it.\n\nSee crossflow systems and specs → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=crossflow-throughput-specs\n\n#filtration #wineryequipment #winetech",
+  "scheduled_publish_time": 1787266800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crushpad.png",
+  "caption": "One catalog, 188+ listings, suppliers vetted across 24 countries — organised the way winemaking actually runs, from grape processing through pressing, fermentation, transfer, filtration, and bottling. You can browse by stage, filter to the capacity you need, and read the specs that matter before anyone has your email. We source from the best, not the loudest, so what you're looking at has already cleared a build-quality bar: food-grade 304 and 316L, sanitary fittings, documented welds. Have a wander through the catalog when you've got a quiet ten minutes.\n\nBrowse the catalog → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=browse-catalog-by-stage\n\n#winemaking #wineryequipment #wineindustry",
+  "scheduled_publish_time": 1787313600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-beat-harvest.png",
+  "caption": "If you're pricing equipment in July, you already feel the clock — but here's the part that's easy to miss: the real buying window for next year's crush is winter and early spring. That's when lead times are sane, commissioning has slack, and you're not competing with every other winery for the same production slot. The Unified Symposium in late January is where a lot of this gets decided in person. Front-load the decision and harvest gets calmer. Our guides are built for exactly that off-season planning — read them before the rush, not during it.\n\nRead the off-season guides → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=winter-buying-window\n\n#harvest #winemaking #winery",
+  "scheduled_publish_time": 1787324400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "A directory is only as honest as the inventory behind it. Behind wine.equipment sit 188+ equipment listings across all six stages — grape processing, pressing, fermentation, wine transfer, filtration, and bottling — from 80+ vetted manufacturers across 24 countries. Not a placeholder catalog; real machines from makers we've checked. We don't build or ship any of it — the manufacturer does that — but we do stand behind who's in the room. Look for yourself before you talk to anyone.\n\nBrowse the full catalog → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=real-inventory\n\n#winemaking #wineryequipment #winerylife",
+  "scheduled_publish_time": 1787331600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crushpad.png",
+  "caption": "Two crusher-destemmers can share a TON/HR rating and treat the fruit completely differently. The gentle ones turn slowly, with a cage and beater geometry that separates berries from stems without tearing skins or shredding stems into the must, less bitterness, cleaner fermentations. Aggressive units run faster and rougher, and you taste it later. Adjustable speed and a well-designed cage matter more than raw throughput for anyone who cares about phenolics. Ask how gentle it is, not just how fast. Our grape-processing guides cover what to look for on the crush pad.\n\nRead the crush-pad guides → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=roller-vs-paddle-destemming\n\n#crushpad #winemaking #grapeprocessing",
+  "scheduled_publish_time": 1787342400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "filtration-gauges.png",
+  "caption": "Not every wine needs the same filtration, and matching the method to the wine saves money and character. A crisp, early-release white bound for stability wants tight, reliable clarification; a structured red headed for bottle age might see only a light polish, or none. The mistake is buying one system and running everything through it identically. Think in terms of your range: what's the most demanding wine you make, and what's the gentlest touch the rest can get away with? That answer sizes your filtration honestly — and often smaller than a salesperson would like.\n\nTalk filtration for your range → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=filtration-match-to-wine\n\n#filtration #winemaking #craftwine",
+  "scheduled_publish_time": 1787353200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crossflow.png",
+  "caption": "Filtration is where sticker price and true cost diverge the most. A plate-and-frame filter is cheap to buy and expensive to run — pads, labor, waste, and oxygen exposure add up every batch. A crossflow system asks more upfront (listings run from roughly $14,200 to the low forties) but consumes no pads and runs largely unattended, so over enough volume it often costs less per litre. The right question for a CFO isn't the invoice — it's cost per litre filtered across a season, plus what oxygen pickup costs you in quality. Model the total, not the tag.\n\nCompare filtration on total cost → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=filtration-total-cost\n\n#filtration #wineryequipment #winproduction",
+  "scheduled_publish_time": 1787400000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Used equipment can cut capital outlay substantially, often a large fraction off new, and for the right piece it's a smart move. Tanks age well; a sound stainless vessel with documented welds and no pitting has decades left. Where used gets risky is anything with moving parts and control systems, presses, fillers, pumps, where parts availability, wear, and orphaned electronics can eat the savings mid-crush. Buy used where the failure mode is cheap; buy new where downtime during vintage isn't survivable. We think through the tradeoff category by category in the guides.\n\nRead the buyer's guides → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=new-vs-used-by-category\n\n#wineryequipment #winemaking #cellar",
+  "scheduled_publish_time": 1787410800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-bph-sizing.png",
+  "caption": "'What BPH do I need?' is the bottling question, and the honest answer is usually smaller than the first guess. Bottles per hour should map to your annual volume and how many bottling days you can staff — not the biggest line the budget allows. A monobloc line rated to 6,000 BPH is wasted on a winery that bottles twelve days a year; a line too slow turns bottling into a week-long marathon. Work backward from cases per year and available labor to the throughput that fits. Lines on the marketplace run from about 1,000 up to 6,000 BPH. Size to your calendar.\n\nWork out your BPH → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=bottling-what-bph\n\n#bottling #wineryequipment #winemaking",
+  "scheduled_publish_time": 1787418000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Lead time is the spec nobody prints on the sheet. It's most punishing on bottling lines, where a monobloc built to order can carry a long queue and every winery wants it landed before the same harvest. If you're speccing toward higher throughput — the marketplace lists lines up to 6,000 BPH — the honest question isn't only \"what BPH do I need,\" it's \"can it be built, shipped, and commissioned in time.\" Compare the options on the specs that matter first, then work backward from your bottling date. We'll help you pressure-test both sides of that.\n\nCompare lines side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=bottling-line-lead-times\n\n#bottling #wineryequipment #winemaking",
+  "scheduled_publish_time": 1787428800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-beat-harvest.png",
+  "caption": "The hidden cost of buying new isn't only price, it's lead time. A tank fabricated to order can take months; a press or bottling line built overseas and shipped can eat your whole pre-harvest window. That's the real case for used: it's here now, and 'commissioned before crush' beats 'perfect but arriving in November.' The discipline is planning early enough that you get to choose on merit rather than on what can arrive in time. If you're pricing gear in mid-summer for this harvest, the calendar is already the deciding spec. Browse what's listed and ready.\n\nBrowse available equipment → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=new-vs-used-beat-harvest\n\n#harvest #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787439600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-304-316L.png",
+  "caption": "304 or 316L isn't a preference — it's about what touches your wine, and whether the molybdenum content and low-carbon welds are actually there where sanitation depends on them. The trouble is that marketing copy tends to bury the metallurgy. So we put it on the surface: compare vetted listings side by side and read the grade, the fittings (Tri-clamp or DIN), and the weld documentation in the same view, without decoding five different brochures. This is a purchase won on specifics, not adjectives. Compare the details before you shortlist anyone.\n\nCompare the details → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=compare-304-vs-316l-metallurgy\n\n#cellar #stainlesssteel #winemaking",
+  "scheduled_publish_time": 1787486400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Curious what actually happens when you reach out? You send your volume, varietals, and the stage you're solving for. We match you to vetted manufacturers who genuinely fit — not everyone with a listing — and make a direct introduction. From there the relationship is yours: the maker builds, quotes, warranties, and ships. We stay reachable if you want a second read on a spec. No pressure, no auto-enrolled email drip. A considered purchase deserves a considered process.\n\nSee how an inquiry works → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=inquiry-flow\n\n#winemaking #wineryequipment #winemaker",
+  "scheduled_publish_time": 1787497200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "Every winemaker has a sourcing horror story — the press that failed on the busiest day of harvest, the pump that sheared a delicate lot, the supplier who stopped answering. Vetting exists to keep you off that list. Before a manufacturer reaches your shortlist, we've looked at build quality, low-shear handling, service response, and delivery timing, so a mid-crush failure is far less likely to be the machine we introduced. We don't build or warranty it — the maker does — but we won't introduce one we wouldn't run ourselves.\n\nFind vetted equipment → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=no-lemon-mid-crush\n\n#winemaking #harvest #fermentation",
+  "scheduled_publish_time": 1787504400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "bottling-line.png",
+  "caption": "A bottling line is really several machines pretending to be one: rinser, filler, corker or capper, and labeller, timed to move as a monobloc. The spec that quietly matters most is fill accuracy — inconsistent fill heights look cheap on the shelf and cost you wine over thousands of bottles. After that, gentleness: a filler that gulps oxygen into finished wine undoes the careful, low-shear handling you protected all the way from the press. Ask about fill-level control, oxygen pickup at the filler, and changeover time between formats. This is the last thing that touches your wine before the cork goes in.\n\nCompare bottling lines → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=bottling-monobloc-fill-accuracy\n\n#bottling #winemaking #winproduction",
+  "scheduled_publish_time": 1787515200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "wine-transfer-pump.png",
+  "caption": "Most oxidation and quality problems people blame on the wine are actually the transfer. A high-shear pump run too hard strips CO2, whips in oxygen, and bruises delicate reds. Flexible-impeller pumps are gentle, affordable, and self-priming but wear over time; progressive-cavity and peristaltic pumps handle must and lees at low shear for a higher price; a rotary lobe sits in between. Match the pump to what you're actually moving, clear wine, must, or heavy lees, and to how gentle the wine needs you to be. Speed and pressure ruin more wine than the pump choice does. Browse transfer pumps by type.\n\nBrowse transfer pumps → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=low-shear-pump-selection\n\n#winemaking #cellar #winetech",
+  "scheduled_publish_time": 1787526000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "barrel-room.png",
+  "caption": "Every winemaker has a 2am story — the pump that quit mid-transfer, the fitting that let go during a run. You can't engineer those out completely, but you can buy for them: serviceable machines, parts you can actually get, low-shear transfer that's gentle on the wine and simple enough to trust at midnight. Reliability isn't a single line on a spec sheet; it's the sum of build quality and whether the maker picks up when it counts. That second part is a lot of what \"vetted\" means to us. See the gear that's earned it.\n\nSee vetted equipment → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=two-am-pump-reliability\n\n#winemaking #wineryequipment #cellar",
+  "scheduled_publish_time": 1787572800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "bottling-line.png",
+  "caption": "Few purchases on the crush-to-pallet journey span a wider price range than bottling — and for good reason. A compact semi-automatic line and a full automatic monobloc rated to 6,000 BPH solve very different problems. On the marketplace, bottling machines list from about $18,500 up to $86,200 depending on speed, automation, and format flexibility — asking prices to budget against, not firm quotes. The manufacturer builds, warranties, and ships it; the real figure comes back on a spec'd quote. Decide your throughput and format range first, and let those set the tier. Speed you won't use is the most common overspend here.\n\nSee what bottling lines list for → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=bottling-price-band\n\n#bottling #wineryequipment #winproduction",
+  "scheduled_publish_time": 1787583600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "For anyone signing off on a six-figure line, the questions are vendor stability and who backs the warranty. Straight answer: the manufacturer backs it. We don't resell or re-warranty — we introduce you directly to the maker, so the warranty sits with the company that built the machine, not a middleman who might not be here in five years. Every supplier is vetted for build quality, service, and delivery before it's listed, which is exactly the diligence a defensible business case needs. Transparent from the first conversation.\n\nTalk through a purchase → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=warranty-vendor-risk\n\n#wineryequipment #wineindustry #winemaking",
+  "scheduled_publish_time": 1787590800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "weld.png",
+  "caption": "The most important spec on a stainless tank is one you can't see in a photo: the welds. A clean, passivated, traceable weld resists corrosion and won't harbor spoilage organisms; a rough or contaminated one becomes a crevice where trouble lives, invisible until a wine turns. That's why documented weld procedures matter more than a glossy exterior, it's the difference between a vessel that survives vintage after vintage and one that quietly fails an audit. Vetting for weld quality is exactly what a marketplace should do before a listing goes up. Learn what a good weld looks like.\n\nRead the sourcing guides → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=traceable-welds-spec\n\n#stainlesssteel #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787601600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "bottling-line.png",
+  "caption": "For a small producer, the honest bottling question is whether to own a line at all. Below a certain volume, a mobile bottling service or a compact semi-automatic setup often beats tying up capital in a full monobloc you'd run a handful of days a year. Owning makes sense when your volume, your scheduling control, or your format range justifies it — a line you use often, on your calendar, protecting your wine your way. Run the cases-per-year math before you commit six figures to speed you'll rarely reach. The right answer is the one your volume actually supports.\n\nModel owning vs outsourcing → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=bottling-own-vs-mobile\n\n#bottling #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787612400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "barrel-room.png",
+  "caption": "Here's the sizing mistake that's expensive to undo: speccing your line for day-one volume instead of five-year projected tonnage. Buy tight and you're re-buying tanks and a press two vintages in; buy blind and you've sunk capital into capacity that sits empty. The calculator lets a first-time founder work from projected production back to sensible capacities across the line — a starting point you can take to a consulting winemaker, not a guess. Building from an empty slab is hard enough. Start with the numbers, then let us help you plan the rest.\n\nPlan your capacity → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=calculator-size-for-five-year-projection\n\n#winestartup #wineryequipment #winemaking",
+  "scheduled_publish_time": 1787659200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "bottling-line.png",
+  "caption": "Bottling is where every earlier decision comes due. The gentle press, the temperature-controlled ferment, the low-shear transfers, the filtration you sized honestly — all of it can be spent in a few careless seconds at a filler that oxidizes the wine or a line that stresses it. Treat bottling as the guardian of everything upstream, not an afterthought bolted on at the end. Spec fill accuracy, oxygen control, and gentle handling with the same care you gave the tank. From the crush pad to the pallet, the wine is only as good as its last machine.\n\nBrowse the full line → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=bottling-guardian-last-machine\n\n#bottling #winemaking #cellar",
+  "scheduled_publish_time": 1787670000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "tri-clamp.png",
+  "caption": "Trust on a five-figure crossflow filter isn't built with adjectives. It's built with specifics: the membrane configuration, the throughput in L/HR, the sanitary fittings, the service record behind it. That's how we vet — line by line, the way a cellar master would — before a listing ever reaches you. We don't manufacture or ship the gear; the maker does. What we bring is the discipline to check the details that decide whether a machine survives its first vintage. Credibility, not enthusiasm.\n\nCompare filtration specs → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=specifics-not-marketing\n\n#winemaking #wineryequipment #cellar",
+  "scheduled_publish_time": 1787677200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crusher-destemmer.png",
+  "caption": "Three things worth checking before you buy a crusher-destemmer, in order. First, the rollers: adjustable spacing lets you crush lightly for whites and skip crushing entirely for whole-berry reds. Second, TON/HR against your actual peak intake — not the vineyard's best-ever year, the morning fruit floods the pad. Third, how gently it separates stem from berry, because MOG and torn skins start problems you'll chase all ferment. Sizing is where most buyers guess. The manufacturer builds, warranties, and ships it; we help you match the spec to your crush before you ever request a quote.\n\nSize it against your intake → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=crusher-destemmer-3-checks\n\n#winemaking #wineryequipment #crushpad",
+  "scheduled_publish_time": 1787688000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "barrel-room.png",
+  "caption": "Most of the manufacturers we vet are Italian and French — not for the branding, but because that's where a lot of the world's best winery fabrication actually happens, in shops that have been welding tanks and building presses for generations. Sophie Petit came up inside that world and speaks its language, which is how we hold the line on build quality without a middleman's markup or a translation gap. We curate and connect; the maker builds, warranties, and ships. You get vetted European craftsmanship without flying to a trade show to go find it yourself.\n\nBrowse vetted makers → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=european-craftsmanship\n\n#winemaking #wineryequipment #craftsmanship",
+  "scheduled_publish_time": 1787698800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "tri-clamp.png",
+  "caption": "Every winemaker who has shortlisted equipment knows the frustration: three manufacturers, three spec sheets, none of them measuring the same things the same way. One quotes gross capacity, another net; one lists nominal BPH, another realistic throughput. Comparing them means rebuilding every sheet into common units by hand at midnight. That's the whole reason to lay listings side by side in one place, same fields, same units, honest apples-to-apples on the specs that decide the buy. Do the comparison once, properly, before you start emailing suppliers. Put your shortlist side by side.\n\nCompare listings side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=compare-non-comparable-spec-sheets\n\n#wineryequipment #winemaking #procurement",
+  "scheduled_publish_time": 1787745600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "The cheapest way to avoid an expensive equipment mistake is to size before you shop, not after. Walk into the catalog knowing your must volume, your peak throughput, and your realistic bottling window, and the spec sheet stops being intimidating, you already know which numbers disqualify a machine. Guess instead, and you either over-buy capacity that idles or under-buy and re-purchase a vintage later. Fermentation tanks start around $3,400 and climb with size and jacket, so getting the volume right is money as well as wine. Run your numbers through the calculator first.\n\nSize your equipment → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=size-before-you-shop-calculator\n\n#winemaking #wineryequipment #planning",
+  "scheduled_publish_time": 1787756400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "'Vetted' is an easy word to print and a hard one to earn. When we add a manufacturer to the directory, we look at the things a spec sheet tends to skip: the grade of stainless, whether the welds are documented, how the sanitary fittings are finished, and what actually happens after delivery when a part is needed. We don't build the tanks — the manufacturer builds, warranties, and ships them. Our job is to make sure the names you reach are worth reaching. Fewer suppliers, checked more carefully.\n\nBrowse the vetted catalog → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=what-vetted-means\n\n#winemaking #wineryequipment #winerylife",
+  "scheduled_publish_time": 1787763600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "weld.png",
+  "caption": "\"Is this just another lead-gen site that'll sell my email?\" Fair question — you've earned the suspicion. So, plainly: you send us what you're speccing, we route it to the vetted manufacturers who fit, and they respond directly. We curate and connect; the manufacturer builds, warranties, and ships. We don't resell your details, and we don't insert ourselves permanently between you and the maker — the relationship stays direct, all the way to commissioning. One inquiry, a response within one business day, and no follow-up spam. A partner, not a portal.\n\nSend us your specs → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=how-it-works-routing-no-email-selling\n\n#winery #wineryequipment #winemaker",
+  "scheduled_publish_time": 1787774400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crushpad.png",
+  "caption": "A crusher-destemmer sized for your average day will bottleneck on your busiest one. Peak intake is the number that matters: the morning three blocks arrive at once and the fruit is warming on the pad. Undersize it and you either slow the picking or let quality slip while grapes wait. Oversize it and you've tied up capital you didn't need. Rated throughput runs from roughly 1 to 30 TON/HR — the right figure sits where your peak crush day meets a little headroom. Worth modeling honestly before you talk to anyone.\n\nModel your crush-day throughput → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=crusher-destemmer-peak-intake\n\n#winemaking #harvest #wineryequipment",
+  "scheduled_publish_time": 1787785200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Here's a sizing mistake I made early and now warn every buyer off: speccing for the tonnage you have today. Equipment is a five-year decision on a business that's usually growing. Size the tank, the press, the crusher-destemmer for where you'll realistically be in a few vintages — with enough headroom that you're not re-buying next year, and not so much that you're heating and cooling empty steel. It's a judgment call, and it's exactly the kind of thing a neutral partner should help you make. Run your numbers through the calculator, then let's talk the trade-offs.\n\nRun your numbers → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=size-for-five-years\n\n#winemaking #fermentation #wineryequipment",
+  "scheduled_publish_time": 1787832000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crusher-destemmer.png",
+  "caption": "Destemming is where you either respect the fruit or bruise it. The variable that decides it is the beater cage and paddle speed: too aggressive and you shred stems into the must, adding green tannin and MOG your press and filter inherit downstream. A gentler destemmer with adjustable speed lets you tune to the varietal — delicate Pinot handled differently than thick-skinned Cabernet. Whole-berry programs need the option to bypass crushing altogether. Materials matter too: food-grade stainless contact surfaces, cleanable geometry, no dead legs. This is the first machine your fruit meets. Spec it like it.\n\nCompare destemmers on the specs → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=destemmer-gentleness-rollers\n\n#winemaking #crushpad #craftwine",
+  "scheduled_publish_time": 1787842800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "weld.png",
+  "caption": "A weld tells you more than a brochure ever will. On a fermentation tank, a clean, documented weld is the difference between a surface you can genuinely sanitize and a crevice that harbors spoilage organisms three vintages from now. It's one of the first things we look at before a manufacturer joins the directory — traceable welds, no dead legs, sanitary geometry throughout. The maker still builds and warranties the tank; we just confirm the build quality is real before it reaches your shortlist. Trust earned in the seam, not the copy.\n\nSee vetted tank listings → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=traceable-welds\n\n#winemaking #fermentation #stainlesssteel",
+  "scheduled_publish_time": 1787850000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "A cellar is only as fast as its slowest stage. You can buy a beautiful press and a high-BPH bottling line, but if your crusher-destemmer backs up the pad or your filter can't keep the fillers fed, the expensive machine just waits. Speccing a line means matching throughput across all six stages, grape processing, pressing, fermentation, transfer, filtration, bottling, so no single station becomes the bottleneck that idles the rest. Compare the numbers stage by stage before you commit to any one piece. It's the difference between a line and a collection of machines.\n\nCompare your line stage by stage → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=whole-line-throughput-matching\n\n#wineryequipment #winemaking #cellardesign",
+  "scheduled_publish_time": 1787860800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-304-316L.png",
+  "caption": "304 vs 316L isn't a matter of taste. It's about what touches your wine. Both are food-grade stainless; the difference is molybdenum, the alloying element in 316L that resists pitting from chlorides and aggressive sanitizers. For most tanks holding finished wine, 304 is honest and sufficient. Where you have hard water, high-sulfur washdowns, or a coastal cellar, the low-carbon welds of 316L earn their premium. Neither grade is 'better' in the abstract, one is better for your conditions. Worth laying the two side by side before you commit the budget.\n\nCompare 304 and 316L side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=304-vs-316l-what-touches-wine\n\n#winemaking #stainlesssteel #wineryequipment",
+  "scheduled_publish_time": 1787871600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crushpad.png",
+  "caption": "An hour of downtime in February costs you an hour. An hour during crush can cost you a vintage. That asymmetry is the whole argument for spending on reliability and serviceability up front — the machine that's slightly dearer but proven, the maker who stocks parts, the crusher-destemmer rated with real headroom over your peak TON/HR intake so it never becomes the bottleneck when the fruit is coming in fast. Cheap gear that stalls at the wrong moment is the most expensive thing in the cellar. Compare units on the specs that keep the line moving.\n\nCompare on uptime specs → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=downtime-during-crush\n\n#harvest #crush #wineryequipment",
+  "scheduled_publish_time": 1787918400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "crusher-destemmer.png",
+  "caption": "What does a crusher-destemmer actually cost? On the marketplace, listings run from about $7,800 for a compact 1 TON/HR unit up into the mid-teens for a 30 TON/HR machine with a receiving hopper. Those are asking prices, not firm quotes — the real number depends on hopper size, build, and options, and the manufacturer sets it. But the range is enough to budget against before crush planning gets serious. The bigger cost is buying the wrong size and re-buying in two vintages. Start with the spec, then the price.\n\nSee what destemmers list for → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=crusher-destemmer-price-band\n\n#wineryequipment #winemaking #vintage",
+  "scheduled_publish_time": 1787929200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "304 or 316L isn't a branding choice — it's about what touches your wine. 316L adds molybdenum for better resistance to chlorides and low-pH must, which matters more at some points in the cellar than others. Part of vetting a listing is confirming the stated grade is the actual grade, and that the low-carbon welds match it. You shouldn't have to take 'food-grade stainless' on faith. We check it so the comparison you make later is an honest one — then the manufacturer builds it, warranties it, and ships it.\n\nCompare tanks side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=304-vs-316l-vetting\n\n#winemaking #wineryequipment #cellar",
+  "scheduled_publish_time": 1787936400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "weld.png",
+  "caption": "Every tank buyer eventually asks whether 316L is worth the premium over 304. The honest answer is sometimes. Molybdenum buys corrosion resistance against chlorides and harsh CIP chemistry, real protection in a coastal cellar or on hard water. Pay for it there. But specifying 316L on a dry-goods storage tank that never sees an aggressive sanitizer is money that could have gone toward jacket coverage or a better weld finish. Match the grade to the environment, not the invoice. The manufacturer builds and warranties it; our job is helping you spec it right.\n\nBrowse tanks by stainless grade → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=316l-worth-the-premium\n\n#winemaking #cellardesign #wineryequipment",
+  "scheduled_publish_time": 1787947200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-beat-harvest.png",
+  "caption": "If you're pricing a crusher-destemmer in mid-summer, the clock is already against you. Grape processing gear has to be delivered, installed, and commissioned before fruit lands — and lead times on a built-to-order machine don't care about your harvest date. The winemakers who get this right start the conversation in winter, size in spring, and commission with room to spare. The ones who don't end up renting, borrowing, or crushing on a machine that doesn't quite fit. Beat harvest, not the other way around. We can point you toward suppliers who deliver on your timeline.\n\nTalk timing with us → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=crusher-destemmer-beat-harvest\n\n#harvest #winemaking #wineryequipment",
+  "scheduled_publish_time": 1787958000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "bottling-line.png",
+  "caption": "Standing up a facility means sourcing a whole line — crusher-destemmer, press, tanks, transfer pumps, filtration, a bottling line — and the usual way is six vendors, six sales teams, and six lead times you're trying to line up against one crush date. There's a calmer path. Tell us what you're building and we'll help you plan and source the line from vetted suppliers, sequenced so it's commissioned before fruit arrives. We stay in the room, from first inquiry to on-site commissioning. Send us the project when you're ready to map it out.\n\nPlan the whole line → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=whole-line-one-inquiry-new-facility\n\n#winestartup #winery #wineequipment",
+  "scheduled_publish_time": 1788004800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "The introduction isn't the end of our job. Plenty of marketplaces hand off a lead and vanish; we'd rather stay useful from the first inquiry through to on-site commissioning. In practice that means helping you reconcile spec sheets that don't match, sanity-check lead times, and confirm the machine that arrives is the one you agreed to. The manufacturer owns the sale, the warranty, and the shipping — we own making sure you're not doing the hard parts alone. A partner, not a portal. Response within one business day when you're ready to start.\n\nStart a conversation → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=stay-in-the-room\n\n#wineryequipment #winemaking #winery",
+  "scheduled_publish_time": 1788015600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-pneumatic-vs-basket.png",
+  "caption": "The press question isn't which is bigger — it's which pressing curve your wine wants. A pneumatic membrane press inflates gently against the cake, giving a soft, programmable curve and clean, low-solids juice; it's the workhorse for quality whites and delicate reds. A basket press works fruit harder and slower, prized for certain traditional reds and small lots. Neither is universally better. The right call depends on your varietals, your volume, and how much free-run you want before you ever apply pressure. Match the press to the wine, not the brochure.\n\nCompare press types side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=press-pneumatic-vs-basket\n\n#pressing #winemaking #winepress",
+  "scheduled_publish_time": 1788022800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "A variable-capacity tank has a floating lid that drops to meet the wine, sealing out headspace as the volume changes. A fixed-capacity tank is welded closed at a set volume. If you work in small lots, ferment varied quantities, or hate topping up against oxidation, variable capacity earns its keep. If you fill the same tank to the same line every vintage, fixed is simpler, cheaper, and one less gasket to maintain. Most cellars end up running a mix. The real question is which jobs each tank is actually doing, and we walk through both in the guide.\n\nRead the variable vs fixed guide → https://wine.equipment/guide/variable-capacity-vs-fixed-tanks?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=variable-vs-fixed-tanks\n\n#fermentation #winemaking #wineryequipment",
+  "scheduled_publish_time": 1788033600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "Most equipment sites hand you a list and disappear. We'd rather stay in the room. From the first inquiry to the day a tank is commissioned before crush, the point of wine.equipment is to be a partner, not a portal — someone who's read the weld certificate and chased a warranty, not just published a listing. We don't manufacture or ship anything ourselves; the maker does that. What we own is the judgment about which makers are worth introducing you to in the first place.\n\nTalk to a real person → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=partner-not-portal\n\n#winemaking #winerylife #wineindustry",
+  "scheduled_publish_time": 1788044400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "pneumatic-press.png",
+  "caption": "For 20 tons you don't necessarily need a bigger press — you need the right pressing curve and a cycle time that keeps up with your crush. A pneumatic membrane press in the 20 to 30 hl range usually handles it, but the specs that decide quality are the ones buyers skim past: the programmability of the pressure ramp, the drainage-channel design, and whether the tank fills and empties without oxidizing the juice. A press that's technically big enough but cycles too slowly still backs up your whole pad. Cycle time is a spec. Ask for it.\n\nSee how presses compare → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=press-cycle-time-curve\n\n#pressing #wineryequipment #winemaking",
+  "scheduled_publish_time": 1788091200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "barrel-room.png",
+  "caption": "Fermenting in stainless versus oak isn't only a flavor decision, it's a control decision. Stainless gives you temperature precision, easy sanitation, and a neutral vessel you'll reuse for decades. Oak contributes texture, micro-oxygenation, and aromatics, at the cost of cleaning effort, evaporation, and a finite lifespan. Plenty of programs ferment in stainless for control, then age in oak for character. The right split depends on your house style and how much you want to intervene during active ferment. We lay out the tradeoffs, thermal, sanitary, and stylistic, in the guide.\n\nRead stainless vs oak → https://wine.equipment/guide/stainless-steel-vs-oak-fermentation?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=stainless-vs-oak-fermentation\n\n#fermentation #winemaking #oak",
+  "scheduled_publish_time": 1788102000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "When we introduce you to a manufacturer, we get out of the way. The relationship is yours — direct with the people who built the machine, who warranty it and ship it. We don't insert ourselves permanently between you and the maker, and we don't resell. That matters when a part is needed mid-vintage and you want the person who actually knows the weld on the phone, not a middleman. Curate and connect, then step back. That's the whole model.\n\nRequest an introduction → https://wine.equipment/contact?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=direct-relationship\n\n#wineryequipment #winemaking #winemaker",
+  "scheduled_publish_time": 1788109200,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "card-bph-sizing.png",
+  "caption": "Bottling is where a throughput miscalculation shows up as a bottleneck the whole cellar backs up behind. Under-spec the line and you're running double shifts through crush; over-spec it and you've paid for bottles-per-hour you'll never fill. Before you commit, put the candidates side by side — rated BPH, format flexibility, footprint, price band — and see the trade-offs in one view instead of five PDFs. Monobloc lines in our catalog run up to 6,000 BPH; the right one matches your run, not the biggest number on the page. Compare them before you talk to a rep.\n\nCompare bottling lines → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=offer&utm_content=compare-bottling-lines-bph\n\n#bottling #wineryequipment #wineproduction",
+  "scheduled_publish_time": 1788120000,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "press-juice.png",
+  "caption": "Gentle isn't a marketing word on a press — it's measurable. A membrane that presses evenly across the cake extracts free-run and light-press fractions without crushing seeds or grinding skins, which is the difference between clean juice and green, phenolic bitterness you fight for months. Look for closed or inert-gas pressing if you're protecting aromatic whites from oxygen, a membrane you can actually inspect and clean, and food-grade contact surfaces throughout. A lot of quality is quietly won or lost at the press. Spec the gentleness; don't assume it.\n\nBrowse pneumatic presses → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=press-gentleness-juice\n\n#pressing #winemaking #craftwine",
+  "scheduled_publish_time": 1788130800,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "cellar-wide.png",
+  "caption": "A decade ago, a cooling jacket was something you added for the hot ferments and skipped elsewhere. Warmer, more compressed harvests have quietly changed that math — temperature control has moved from a luxury to a baseline, because a tank that can't hold its number during a fast, hot ferment isn't cheaper, it's a flawed vintage waiting to happen. When we help buyers spec now, jacket coverage and a workable glycol loop are early questions, not afterthoughts. If you're sizing fermentation this season, our guide walks capacity, stainless grade, and jacket together.\n\nHow to spec fermentation → https://wine.equipment/guide/fermentation-tank-sizing?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=temperature-control-baseline\n\n#fermentation #winemaking #wineryequipment",
+  "scheduled_publish_time": 1788177600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "The most common sizing mistake on a fermentation tank is buying to your grape weight and forgetting the cap. Red ferments need headspace: ullage for the rising cap, room for punch-downs or pump-overs, space so you're not cleaning must off the ceiling. A tank filled to the brim on paper is overfilled in practice. As a rule of thumb, size the vessel above your must volume, not level with it, and match jacket coverage to your peak fermentation heat. The sizing guide walks through the math with real numbers so you don't learn this during crush.\n\nRead the tank sizing guide → https://wine.equipment/guide/fermentation-tank-sizing?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=fermentation-tank-sizing-headspace\n\n#fermentation #winemaking #harvest",
+  "scheduled_publish_time": 1788188400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "tank-jacket.png",
+  "caption": "A tank that can't hold temperature during a hot ferment isn't a bargain, it's a risk. Two tanks at the same price can carry very different cooling jackets: a narrow band near the top versus dimpled coverage down the barrel, glycol-ready versus water-only. During peak fermentation a Cabernet can throw serious heat, and undersized jacket area means chasing a temperature you'll never quite catch. Read the jacket spec as carefully as the litre price, surface area, placement, and glycol compatibility. Compare a few tanks on those numbers before you decide.\n\nCompare tanks on jacket spec → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=cooling-jacket-glycol-coverage\n\n#fermentation #winetech #wineryequipment",
+  "scheduled_publish_time": 1788195600,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "pneumatic-press.png",
+  "caption": "Sizing a press starts with a simple chain: your peak crush tonnage sets your must volume, your must volume sets the capacity you need per cycle, and your cycle time tells you whether one press keeps up or you're feeding two. Get the first number wrong and everything downstream is wrong. Most small-to-mid wineries land on a pneumatic membrane press in the 10 to 30 hl range, but the honest answer depends on your fruit and your calendar. Run the volumes before you shortlist — guessing here is expensive.\n\nWork out your volumes first → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=press-sizing-volumes\n\n#pressing #winemaking #wineryequipment",
+  "scheduled_publish_time": 1788206400,
+  "posted": false,
+  "id": null
+ },
+ {
+  "image": "fermentation-tank.png",
+  "caption": "The loudest supplier is rarely the best one — just the one with the biggest ad budget. We source from the best, not the loudest, which means the directory is deliberately shorter than it could be. A manufacturer earns a place through the things that survive a hard vintage: honest metallurgy, documented welds, real service and delivery. We don't build any of it — the maker builds, warranties, and ships. We just won't list names we wouldn't stake our own reputation on.\n\nBrowse vetted equipment → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=verified&utm_content=best-not-loudest\n\n#winemaking #wineryequipment #harvest",
+  "scheduled_publish_time": 1788217200,
+  "posted": false,
+  "id": null
+ }
+]
