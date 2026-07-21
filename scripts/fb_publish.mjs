@@ -46,10 +46,11 @@ for (const p of q) {
     const j = await r.json();
     if (j.id || j.post_id) { p.posted = true; p.id = j.id || j.post_id; ok++; }
     else {
-      const code = j.error?.code;
+      // Any failure at this point is almost always the daily/queue cap (or a transient blip).
+      // Stop the run and resume next day — this avoids burning the batch on repeated cap errors,
+      // and never risks duplicates.
       console.log(`  ❌ ${p.image}: ${JSON.stringify(j.error || j).slice(0, 160)}`);
-      // rate-limit / cap codes -> stop the run; resume next day
-      if ([4, 17, 32, 613, 368].includes(code)) { stopped = true; break; }
+      stopped = true; break;
     }
   } catch (e) { console.log(`  ❌ ${p.image}: ${e.message}`); stopped = true; break; }
 }
