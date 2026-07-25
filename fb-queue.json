@@ -276,36 +276,36 @@
   "image": "knoll-valves.png",
   "caption": "Filtration is where sticker price and true cost diverge the most. A plate-and-frame filter is cheap to buy and expensive to run — pads, labor, waste, and oxygen exposure add up every batch. A crossflow system asks more upfront (listings run from roughly $14,200 to the low forties) but consumes no pads and runs largely unattended, so over enough volume it often costs less per litre. The right question for a CFO isn't the invoice — it's cost per litre filtered across a season, plus what oxygen pickup costs you in quality. Model the total, not the tag.\n\nCompare filtration on total cost → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=filtration-total-cost\n\n#filtration #wineryequipment #winproduction",
   "scheduled_publish_time": 1787400000,
-  "posted": false,
-  "id": null
+  "posted": true,
+  "id": "122108104863332013"
  },
  {
   "image": "type-press.png",
   "caption": "Used equipment can cut capital outlay substantially, often a large fraction off new, and for the right piece it's a smart move. Tanks age well; a sound stainless vessel with documented welds and no pitting has decades left. Where used gets risky is anything with moving parts and control systems, presses, fillers, pumps, where parts availability, wear, and orphaned electronics can eat the savings mid-crush. Buy used where the failure mode is cheap; buy new where downtime during vintage isn't survivable. We think through the tradeoff category by category in the guides.\n\nRead the buyer's guides → https://wine.equipment/guides?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=new-vs-used-by-category\n\n#wineryequipment #winemaking #cellar",
   "scheduled_publish_time": 1787410800,
-  "posted": false,
-  "id": null
+  "posted": true,
+  "id": "122108104905332013"
  },
  {
   "image": "type-bph.png",
   "caption": "'What BPH do I need?' is the bottling question, and the honest answer is usually smaller than the first guess. Bottles per hour should map to your annual volume and how many bottling days you can staff — not the biggest line the budget allows. A monobloc line rated to 6,000 BPH is wasted on a winery that bottles twelve days a year; a line too slow turns bottling into a week-long marathon. Work backward from cases per year and available labor to the throughput that fits. Lines on the marketplace run from about 1,000 up to 6,000 BPH. Size to your calendar.\n\nWork out your BPH → https://wine.equipment/calculator?utm_source=facebook&utm_medium=organic&utm_campaign=six-stages&utm_content=bottling-what-bph\n\n#bottling #wineryequipment #winemaking",
   "scheduled_publish_time": 1787418000,
-  "posted": false,
-  "id": null
+  "posted": true,
+  "id": "122108104953332013"
  },
  {
   "image": "epic-tankhall.png",
   "caption": "Lead time is the spec nobody prints on the sheet. It's most punishing on bottling lines, where a monobloc built to order can carry a long queue and every winery wants it landed before the same harvest. If you're speccing toward higher throughput — the marketplace lists lines up to 6,000 BPH — the honest question isn't only \"what BPH do I need,\" it's \"can it be built, shipped, and commissioned in time.\" Compare the options on the specs that matter first, then work backward from your bottling date. We'll help you pressure-test both sides of that.\n\nCompare lines side by side → https://wine.equipment/compare?utm_source=facebook&utm_medium=organic&utm_campaign=behind-the-cellar&utm_content=bottling-line-lead-times\n\n#bottling #wineryequipment #winemaking",
   "scheduled_publish_time": 1787428800,
-  "posted": false,
-  "id": null
+  "posted": true,
+  "id": "122108104995332013"
  },
  {
   "image": "type-bph.png",
   "caption": "The hidden cost of buying new isn't only price, it's lead time. A tank fabricated to order can take months; a press or bottling line built overseas and shipped can eat your whole pre-harvest window. That's the real case for used: it's here now, and 'commissioned before crush' beats 'perfect but arriving in November.' The discipline is planning early enough that you get to choose on merit rather than on what can arrive in time. If you're pricing gear in mid-summer for this harvest, the calendar is already the deciding spec. Browse what's listed and ready.\n\nBrowse available equipment → https://wine.equipment/equipment?utm_source=facebook&utm_medium=organic&utm_campaign=spec-showdown&utm_content=new-vs-used-beat-harvest\n\n#harvest #winemaking #wineryequipment",
   "scheduled_publish_time": 1787439600,
-  "posted": false,
-  "id": null
+  "posted": true,
+  "id": "122108105031332013"
  },
  {
   "image": "split-weld.png",
