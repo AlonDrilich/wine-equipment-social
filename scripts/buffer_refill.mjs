@@ -48,7 +48,12 @@ for (const plat of ["youtube", "linkedin"]) {
   if (dead.has(CH[plat])) { console.log(`• ${plat}: skipped — channel disconnected (fix the auth, then re-run this workflow).`); continue; }
   const have = await scheduledDates(CH[plat]);   // channel ID, not the platform name
   if (have === null) { console.log(`• ${plat}: could not read the scheduled queue (Buffer API) — skipping this run to avoid duplicates`); continue; }
-  const todo = SCHED.filter(s => s.date >= today && s.date <= "2026-08-31" && !have.has(s.date));
+  // Only future slots. Today's slot time (15:00Z / 16:00Z) may already have passed —
+  // Buffer rejects those outright, so filter on the real datetime, not just the date.
+  const slotHour = plat === "youtube" ? "15:00:00Z" : "16:00:00Z";
+  const cutoff = Date.now() + 15 * 60 * 1000;
+  const todo = SCHED.filter(s =>
+    s.date <= "2026-08-31" && !have.has(s.date) && Date.parse(`${s.date}T${slotHour}`) > cutoff);
   for (const s of todo) {
     const r = await gql(CREATE, { input: inputFor(plat, s) });
     const t = r.data?.createPost?.__typename;
