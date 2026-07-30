@@ -35,8 +35,17 @@ const inputFor = (plat, s) => plat === "youtube"
   ? { channelId: CH.youtube, schedulingType: "automatic", mode: "customScheduled", dueAt: `${s.date}T15:00:00Z`, text: s.yt_description, metadata: { youtube: { title: s.yt_title.slice(0, 100), categoryId: "22", privacy: "public", madeForKids: false, notifySubscribers: false, isAiGenerated: true } }, assets: [{ video: { url: `${RAW}/${s.reel}` } }] }
   : { channelId: CH.linkedin, schedulingType: "automatic", mode: "customScheduled", dueAt: `${s.date}T16:00:00Z`, text: s.ig_caption.replace(/%PLAT%/g, "linkedin"), assets: [{ video: { url: `${RAW}/${s.reel}` } }] };
 
+// Health check first — a channel whose OAuth has lapsed still ACCEPTS scheduled posts and then
+// fails silently at publish time. Detect it, shout, and don't waste queue slots on a dead channel.
+const health = await gql(`query($org:OrganizationId!){ channels(input:{organizationId:$org}){ id service name isDisconnected } }`, { org: ORG });
+const dead = new Set((health.data?.channels || []).filter(c => c.isDisconnected).map(c => c.id));
+for (const c of (health.data?.channels || [])) {
+  if (c.isDisconnected) console.log(`⚠️  ${c.service} "${c.name}" IS DISCONNECTED — Buffer has lost authorization. Reconnect it in Buffer → Channels, or its posts will keep failing.`);
+}
+
 let added = { youtube: 0, linkedin: 0 };
 for (const plat of ["youtube", "linkedin"]) {
+  if (dead.has(CH[plat])) { console.log(`• ${plat}: skipped — channel disconnected (fix the auth, then re-run this workflow).`); continue; }
   const have = await scheduledDates(CH[plat]);   // channel ID, not the platform name
   if (have === null) { console.log(`• ${plat}: could not read the scheduled queue (Buffer API) — skipping this run to avoid duplicates`); continue; }
   const todo = SCHED.filter(s => s.date >= today && s.date <= "2026-08-31" && !have.has(s.date));
