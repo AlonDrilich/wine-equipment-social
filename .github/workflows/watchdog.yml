@@ -1,0 +1,21 @@
+name: watchdog
+
+# Verifies the August plan is actually on track. A red run here means GitHub emails the repo owner —
+# that is the alarm. Silence means healthy.
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check publishing health
+        env:
+          BUFFER_WINE_TOKEN: ${{ secrets.BUFFER_WINE_TOKEN }}
+        run: node scripts/watchdog.mjs
