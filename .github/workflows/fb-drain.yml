@@ -37,6 +37,10 @@ jobs:
         run: |
           git config user.name "wine-social-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add fb-queue.json
+          # Every month's queue, not just August's. Staging one filename meant a newer month's
+          # `posted` flags were dropped, so the next run re-scheduled posts already live on the
+          # Page — silent duplicates.
+          git add 'fb-queue*.json'
           git diff --cached --quiet || git commit -m "chore: drain FB queue [skip ci]"
+          git pull --rebase --autostash
           git push
