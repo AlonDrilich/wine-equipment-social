@@ -7,11 +7,15 @@
 // Secrets:  FB_PAGE_ID, FB_PAGE_TOKEN  (long-lived Page token with pages_manage_posts + pages_read_engagement)
 // Optional: FB_IMG_BASE  (public base URL to /pool/*.png; defaults to this repo's raw.githubusercontent URL)
 //           FB_BATCH     (max posts per run; default 45)
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 const __dir = dirname(fileURLToPath(import.meta.url));
-const QUEUE = join(__dir, "..", "fb-queue.json");
+const REPO = join(__dir, "..");
+// Every fb-queue*.json in the repo root is a month of posts, drained oldest-first. Adding a month
+// is dropping in a new file — no code change — which is what keeps publishing from stopping dead
+// the day one month's queue empties.
+const QUEUES = readdirSync(REPO).filter((f) => /^fb-queue.*\.json$/.test(f));
 const V = "v21.0";
 
 const PAGE = process.env.FB_PAGE_ID, TOKEN = process.env.FB_PAGE_TOKEN;
@@ -23,12 +27,20 @@ const nowSec = Math.floor(Date.now() / 1000);
 if (!PAGE || !TOKEN) { console.log("• FB drain skipped (no FB_PAGE_ID / FB_PAGE_TOKEN secret)"); process.exit(0); }
 if (!IMG_BASE) { console.log("• FB drain skipped (no FB_IMG_BASE and no repo context for raw URLs)"); process.exit(0); }
 
-const q = JSON.parse(readFileSync(QUEUE, "utf8"));
-const pending = q.filter((p) => !p.posted);
-console.log(`FB queue: ${pending.length} pending / ${q.length} total. Scheduling up to ${BATCH} this run.`);
+// Drain in CHRONOLOGICAL order, not filename order — "fb-queue-2026-09.json" sorts before
+// "fb-queue.json" as a string ('-' < '.'), which would post September ahead of August.
+const soonest = (q) => Math.min(...q.filter((p) => !p.posted).map((p) => p.scheduled_publish_time), Infinity);
+const files = QUEUES
+  .map((f) => ({ f, path: join(REPO, f), q: JSON.parse(readFileSync(join(REPO, f), "utf8")) }))
+  .sort((a, b) => soonest(a.q) - soonest(b.q));
+const totalPending = files.reduce((n, x) => n + x.q.filter((p) => !p.posted).length, 0);
+console.log(`FB queues (drain order): ${files.map((x) => x.f).join(", ") || "(none)"}`);
+console.log(`${totalPending} pending across ${files.length} file(s). Scheduling up to ${BATCH} this run.`);
 
 let ok = 0, done = 0, stopped = false;
-for (const p of q) {
+const all = files.flatMap((x) => x.q.map((p) => p));
+for (const p of all) {
+  if (stopped) break;
   if (p.posted) continue;
   if (done >= BATCH) break;
   // FB requires scheduled_publish_time >= 10 min out and <= 6 months. Skip anything already past.
@@ -54,6 +66,10 @@ for (const p of q) {
     }
   } catch (e) { console.log(`  ❌ ${p.image}: ${e.message}`); stopped = true; break; }
 }
-writeFileSync(QUEUE, JSON.stringify(q, null, 1));
-const left = q.filter((p) => !p.posted).length;
+for (const x of files) writeFileSync(x.path, JSON.stringify(x.q, null, 1));
+const left = files.reduce((n, x) => n + x.q.filter((p) => !p.posted).length, 0);
+for (const x of files) {
+  const l = x.q.filter((p) => !p.posted).length;
+  console.log(`   ${x.f}: ${x.q.length - l}/${x.q.length} done`);
+}
 console.log(`✅ scheduled ${ok} this run.${stopped ? " (stopped early — likely daily cap; resumes next run)" : ""} ${left} still pending.`);

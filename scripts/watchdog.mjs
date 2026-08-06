@@ -14,8 +14,10 @@ const __dir = dirname(fileURLToPath(import.meta.url));
 const TOKEN = (process.env.BUFFER_WINE_TOKEN || "").trim();
 const ORG = "6a5e982e9f3f91036e762820";
 const CH = { youtube: "6a5e99b7e2638b94d7a38135", linkedin: "6a5ef716e2638b94d7a6df0c" };
-const END = "2026-08-31";
 const SCHED = JSON.parse(readFileSync(join(__dir, "..", "schedule.json"), "utf8"));
+// The horizon we promise to cover is the last date in schedule.json, so extending the plan by a
+// month is a data edit. A hardcoded end date silently reports "all clear" past its own runway.
+const END = SCHED.map(s => s.date).sort().pop();
 const today = new Date().toISOString().slice(0, 10);
 
 if (!TOKEN) { console.log("• watchdog skipped (no BUFFER_WINE_TOKEN)"); process.exit(0); }

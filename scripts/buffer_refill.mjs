@@ -52,8 +52,9 @@ for (const plat of ["youtube", "linkedin"]) {
   // Buffer rejects those outright, so filter on the real datetime, not just the date.
   const slotHour = plat === "youtube" ? "15:00:00Z" : "16:00:00Z";
   const cutoff = Date.now() + 15 * 60 * 1000;
+  // The runway is whatever schedule.json covers — adding a month is editing data, not code.
   const todo = SCHED.filter(s =>
-    s.date <= "2026-08-31" && !have.has(s.date) && Date.parse(`${s.date}T${slotHour}`) > cutoff);
+    !have.has(s.date) && Date.parse(`${s.date}T${slotHour}`) > cutoff);
   for (const s of todo) {
     const r = await gql(CREATE, { input: inputFor(plat, s) });
     const t = r.data?.createPost?.__typename;
