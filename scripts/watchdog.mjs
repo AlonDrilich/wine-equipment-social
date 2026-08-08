@@ -51,9 +51,15 @@ for (const [plat, id] of (TOKEN ? Object.entries(CH) : [])) {
   // Buffer keeps a post that failed to publish in status `error`, and only tells you by email.
   // Nothing else in this pipeline notices, so the slot is simply lost. Surface it here.
   const e = await gql(`query($org:OrganizationId!,$ch:ChannelId!){ posts(input:{organizationId:$org, filter:{channelIds:[$ch], status:error}}){ edges{ node{ dueAt } } } }`, { org: ORG, ch: id });
-  const errs = (e.data?.posts?.edges || []).map(x => x.node.dueAt.slice(0, 10)).sort();
-  const recent = errs.filter(d => Date.parse(d) > Date.now() - 7 * 86400000);
-  if (recent.length) problems.push(`${plat}: ${recent.length} post(s) FAILED to publish in the last week (${recent.join(", ")}) — Buffer only emails about these; the slots are lost unless re-queued`);
+  const errs = (e.data?.posts?.edges || []).map(x => x.node.dueAt).sort();
+  // Alarm only on failures since roughly the last daily run. A wider window would hold the check
+  // red for a week over one incident, and a permanently red alarm is ignored exactly as fast as a
+  // permanently green one. Older failures stay visible as a note.
+  const fresh = errs.filter(d => Date.parse(d) > Date.now() - 36 * 3600000);
+  const older = errs.filter(d => Date.parse(d) <= Date.now() - 36 * 3600000
+                              && Date.parse(d) > Date.now() - 14 * 86400000);
+  if (fresh.length) problems.push(`${plat}: ${fresh.length} post(s) FAILED to publish since yesterday (${fresh.map(d => d.slice(0, 16)).join(", ")}) — Buffer only emails about these, and the slot is lost once its time passes`);
+  if (older.length) note.push(`${plat}: ${older.length} older failure(s) in the last fortnight (${older.map(d => d.slice(0, 10)).join(", ")}) — recurring failures mean the channel needs reconnecting`);
 
   // gap inside the queue
   if (dates.length > 1) {
