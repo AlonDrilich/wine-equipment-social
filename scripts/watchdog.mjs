@@ -48,6 +48,13 @@ for (const [plat, id] of (TOKEN ? Object.entries(CH) : [])) {
   note.push(`${plat}: ${dates.length} scheduled, through ${last || "-"}`);
   // Buffer's free plan caps at ~10. Fewer than 5 queued with runway left means the refill is not keeping up.
   if (daysLeft > 0 && dates.length < 5) problems.push(`${plat}: only ${dates.length} scheduled with ${daysLeft} days to ${END} — the refill is not keeping up`);
+  // Buffer keeps a post that failed to publish in status `error`, and only tells you by email.
+  // Nothing else in this pipeline notices, so the slot is simply lost. Surface it here.
+  const e = await gql(`query($org:OrganizationId!,$ch:ChannelId!){ posts(input:{organizationId:$org, filter:{channelIds:[$ch], status:error}}){ edges{ node{ dueAt } } } }`, { org: ORG, ch: id });
+  const errs = (e.data?.posts?.edges || []).map(x => x.node.dueAt.slice(0, 10)).sort();
+  const recent = errs.filter(d => Date.parse(d) > Date.now() - 7 * 86400000);
+  if (recent.length) problems.push(`${plat}: ${recent.length} post(s) FAILED to publish in the last week (${recent.join(", ")}) — Buffer only emails about these; the slots are lost unless re-queued`);
+
   // gap inside the queue
   if (dates.length > 1) {
     const gaps = [];
