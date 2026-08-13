@@ -1,0 +1,25 @@
+name: audit
+
+# On-demand: did every platform actually publish? The watchdog answers "is anything broken now";
+# this answers "did the posts really go out, on which days, and where are the holes".
+# Read-only — it never creates, deletes or reschedules anything.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Audit publishing across platforms
+        env:
+          BUFFER_WINE_TOKEN: ${{ secrets.BUFFER_WINE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: node scripts/audit.mjs
