@@ -75,7 +75,7 @@ if (TOKEN) {
     for (const status of ["sent", "scheduled", "error"]) {
       // filter.status is [PostStatus!]. A literal coerces to a list, a variable does not — declaring
       // it PostStatus! made every query fail, and the empty default rendered as a confident "0".
-      const j = await gql(`query($org:OrganizationId!,$ch:ChannelId!,$st:[PostStatus!]){ posts(input:{organizationId:$org, filter:{channelIds:[$ch], status:$st}}){ edges{ node{ dueAt } } } }`,
+      const j = await gql(`query($org:OrganizationId!,$ch:ChannelId!,$st:[PostStatus!]){ posts(input:{organizationId:$org, filter:{channelIds:[$ch], status:$st}}, first:100){ edges{ node{ dueAt } } } }`,
         { org: ORG, ch: id, st: [status] });
       // Never let a failed query read as "nothing scheduled" — that is worse than no audit at all.
       if (j.errors) { console.log(`  ! ${status}: query failed — ${JSON.stringify(j.errors).slice(0, 150)}`); continue; }
